@@ -1,3 +1,3 @@
 public interface PaymentStatusStrategy {
-    String getPaymentStatus();
+    String getPaymentStatus(String idMetodoPagamento);
 }

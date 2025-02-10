@@ -1,4 +1,4 @@
-public class PaymentStatusStrategyWrapper {
+public class PaymentStatusStrategyWrapper implements PaymentStatusStrategy{
     public static String getPaymentStatus(String idMetodoPagamento) {
         if (idMetodoPagamento == 'Carta_di_credito') {
             return 'credito_soggiorno';
