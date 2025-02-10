@@ -1,0 +1,205 @@
+.prenotazione-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.prenotazione-modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 90vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.prenotazione-modal-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.prenotazione-modal-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.prenotazione-modal-close-button:hover {
+  color: #555;
+}
+
+.prenotazione-modal-confirm-button {
+  padding: 10px 20px;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.prenotazione-modal-confirm-button:hover {
+  background-color: #333;
+}
+
+.prenotazione-modal-date {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.prenotazione-modal-date label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.prenotazione-modal-date input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.prenotazione-modal-date input:focus {
+  border-color: #555;
+}
+
+.services-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.toggle-services-circle {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle-services-circle:hover {
+  background-color: #333;
+}
+
+.prenotazione-modal-body {
+  flex-grow: 1;
+  overflow-y: auto;
+  max-height: calc(90vh - 150px); /* Imposta un'altezza massima in base alla visibilità di titolo, totale e conferma */
+  margin-bottom: 20px;
+}
+
+.prenotazione-modal-services-list,
+.prenotazione-modal-payment-methods {
+  margin-bottom: 20px;
+  padding-right: 10px;
+}
+
+.prenotazione-modal-services-list[style*="display: none"],
+.prenotazione-modal-payment-methods[style*="display: none"] {
+  display: none;
+}
+
+.prenotazione-modal-services-list[style*="display: block"],
+.prenotazione-modal-payment-methods[style*="display: block"] {
+  max-height: 50vh;
+}
+
+.prenotazione-modal-services-list[style*="display: none"],
+.prenotazione-modal-payment-methods[style*="display: none"] {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.prenotazione-modal-scrollable-content {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.prenotazione-modal-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto; /* Spinge i bottoni verso il basso */
+  width: 100%;
+}
+
+.prenotazione-modal-total {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .prenotazione-modal-content {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    padding: 15px;
+  }
+
+  .prenotazione-modal-body {
+    max-height: calc(100vh - 170px); /* Imposta l'altezza massima in base al titolo e il footer */
+  }
+
+  .prenotazione-modal-total {
+    font-size: 1.1em;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .prenotazione-modal-footer {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .prenotazione-modal-confirm-button {
+    width: 100%; /* Rende il bottone largo tutta la modale */
+    margin-top: 15px;
+  }
+
+  .prenotazione-modal-total,
+  .prenotazione-modal-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.prenotazione-modal-status-message {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.prenotazione-modal-status-message.green {
+  color: green;
+}
+
+.prenotazione-modal-status-message.red {
+  color: red;
+}

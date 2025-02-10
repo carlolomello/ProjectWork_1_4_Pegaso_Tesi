@@ -1,0 +1,70 @@
+/* Contenitore principale per la search bar */
+.search-bar-container {
+  display: flex;
+  justify-content: center; /* Centra la search bar orizzontalmente */
+  align-items: center; /* Centra la search bar verticalmente */
+  width: 100%;
+  height: 100%; /* Aggiungi questa riga per garantire che la search bar occupi tutta l'altezza disponibile */
+  padding: 20px; /* Se necessario, aggiungi del padding */
+}
+
+/* Modifica la search bar per limitare la larghezza su desktop */
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  width: 100%; /* La width è 100% per adattarsi al contenitore */
+  max-width: 100%; /* Limita la larghezza massima per evitare che diventi troppo larga su schermi grandi */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 
+
+/* Su dispositivi più grandi (desktop), cambia la disposizione in orizzontale */
+@media (min-width: 768px) {
+  .search-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .search-bar div {
+    width: 22%; /* Adatta la larghezza per le colonne */
+  }
+
+  .search-bar button {
+    margin-left: 20px;
+    width: auto;
+  }
+}
+
+.search-bar div {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar label {
+  margin-bottom: 5px;
+}
+
+.search-bar input,
+.search-bar select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  padding: 10px;
+  background-color: #7f7f7f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #333;
+}

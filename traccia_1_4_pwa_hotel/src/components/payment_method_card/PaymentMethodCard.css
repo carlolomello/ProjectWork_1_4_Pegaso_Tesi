@@ -1,0 +1,72 @@
+/* Mantenere il layout originale della card */
+.prenotazione-modal-payment-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.prenotazione-modal-payment-radio {
+  margin-right: 10px;
+}
+
+.prenotazione-modal-payment-details {
+  flex: 1;
+}
+
+.prenotazione-modal-payment-title {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+/* Dettagli della carta */
+.card-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+/* Etichette per gli input */
+.card-details label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Input numerici e di data (Carta di credito, CVV, Scadenza) */
+input[type="text"], input[type="month"] {
+  width: 100%; /* Input si adattano alla larghezza della card */
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Distanza tra gli input */
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="month"]:focus {
+  border-color: #007bff;
+  background-color: #fff;
+  outline: none;
+}
+
+/* Messaggi di errore */
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+/* Sezione IBAN per il Bonifico */
+.iban-details p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.card-number-input {
+  letter-spacing: 1px; /* Leggera separazione tra i numeri */
+}

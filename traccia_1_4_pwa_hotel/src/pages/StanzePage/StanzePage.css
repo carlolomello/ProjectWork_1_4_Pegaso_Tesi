@@ -1,0 +1,25 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .carousel-container,
+  .searchbar-container {
+    width: 100%;
+    max-width: 1200px;  /* Assicurati che entrambi abbiano la stessa larghezza massima */
+    margin: 0 auto;
+  }
+  
+  .search-bar {
+    width: 100%;
+    max-width: 1200px;  /* Imposta anche qui la larghezza massima */
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

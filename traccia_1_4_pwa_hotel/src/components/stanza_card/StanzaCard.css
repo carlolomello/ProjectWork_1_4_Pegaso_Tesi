@@ -1,0 +1,79 @@
+/* Griglia delle stanze */
+.rooms-grid {
+  padding: 20px;
+}
+
+.rooms-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Card responsive */
+  gap: 20px; /* Spazio tra le card */
+}
+
+/* Singola Card */
+.roomCard {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra più morbida */
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+  min-height: 250px; /* Evita che le card troppo piccole si comprimano */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distanza tra i contenuti */
+  margin-bottom: 20px; /* Spazio tra le card */
+}
+
+.roomCard:hover {
+  transform: translateY(-5px); /* Effetto di sollevamento */
+}
+
+.roomCard h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.roomCard p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.roomCard strong {
+  font-weight: bold;
+}
+
+/* Footer della card */
+.card-footer {
+  margin-top: auto; /* Spinge il footer in basso */
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+}
+
+/* Bottone */
+.stanza-card-btn {
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* Effetto hover solo se abilitato */
+.stanza-card-btn:hover:not(:disabled) {
+  background-color: #333;
+}
+
+/* Stile per il bottone disabilitato */
+.stanza-card-btn:disabled {
+  background-color: #ccc; /* Grigio chiaro per indicare disabilitato */
+  color: #888; /* Testo più chiaro */
+  cursor: not-allowed; /* Icona di divieto */
+  opacity: 0.6; /* Opacità ridotta per evidenziare che è disabilitato */
+}

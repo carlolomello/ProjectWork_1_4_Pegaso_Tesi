@@ -1,0 +1,12 @@
+
+.sarcastic-info {
+    /*background-color: #f0f0f0;*/
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .sarcastic-info p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }

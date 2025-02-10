@@ -1,0 +1,76 @@
+/* Footer.css */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  bottom: -100%;  /* Inizialmente nascosto fuori dallo schermo */
+  left: 0;
+  transition: bottom 0.5s ease; /* Transizione per farlo scivolare su e giù */
+  z-index: 1000;
+}
+
+.footer.show {
+  bottom: 0;  /* Porta il footer in vista */
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.footer-description {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #ccc;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+.footer-description h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Pulsante laterale con cerchietto e freccia */
+.footer-toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 50%; /* Cerchio */
+  cursor: pointer;
+  z-index: 1001;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  width: 50px;
+  height: 50px;
+}
+
+.footer-toggle-btn:hover {
+  background-color: #555;
+}
+
+/* Freccia */
+.footer-toggle-btn::before {
+  content: "▼"; /* Freccia giù */
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.footer-toggle-btn.show::before {
+  content: "▲"; /* Freccia su */
+  transform: rotate(180deg);
+}
