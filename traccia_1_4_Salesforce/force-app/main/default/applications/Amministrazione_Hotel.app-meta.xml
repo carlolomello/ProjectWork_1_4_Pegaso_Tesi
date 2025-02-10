@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Amministrazione Hotel</label>
+    <navType>Standard</navType>
+    <setupExperience>all</setupExperience>
+    <tabs>utenza_cliente__c</tabs>
+    <tabs>Stanza__c</tabs>
+    <tabs>Prenotazione__c</tabs>
+    <tabs>Prenotazione_Servizio__c</tabs>
+    <tabs>Servizio__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Amministrazione_Hotel_UtilityBar</utilityBar>
+</CustomApplication>

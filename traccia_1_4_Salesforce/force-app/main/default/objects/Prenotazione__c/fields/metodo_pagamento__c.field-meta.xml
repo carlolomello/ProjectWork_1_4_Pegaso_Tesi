@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>metodo_pagamento__c</fullName>
+    <label>Metodo pagamento</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bonifico</fullName>
+                <default>false</default>
+                <label>Bonifico</label>
+            </value>
+            <value>
+                <fullName>Carta_di_credito</fullName>
+                <default>false</default>
+                <label>Carta_di_credito</label>
+            </value>
+            <value>
+                <fullName>Carta_di_debito_Bancomat</fullName>
+                <default>false</default>
+                <label>Carta_di_debito_Bancomat</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

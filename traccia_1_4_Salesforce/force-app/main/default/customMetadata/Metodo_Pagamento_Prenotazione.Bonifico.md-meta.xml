@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Bonifico</label>
+    <protected>false</protected>
+    <values>
+        <field>descrizione__c</field>
+        <value xsi:type="xsd:string">Selezionando questa modalità di pagamento, non potrai modificare più la tua prenotazione. Se non sarà percepito alcun bonifico con la causale a te assegnata entro 72 prima del tuo soggiorno, la prenotazione sarà annullata. Se decidi di eliminare la tua prenotazione, potrai farlo non oltre 72 ore prima del tuo soggiorno.</value>
+    </values>
+</CustomMetadata>

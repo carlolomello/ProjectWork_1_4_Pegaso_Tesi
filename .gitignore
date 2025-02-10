@@ -1,0 +1,16 @@
+# Ignora i file di sistema macOS
+.DS_Store
+
+# Ignora i file e le cartelle di React
+node_modules/
+build/
+*.log
+*.env
+
+# Ignora le configurazioni specifiche dell'IDE (opzionale, se stai usando un editor come VSCode)
+.vscode/
+.idea/
+
+# Ignora i file generati da npm
+package-lock.json
+yarn.lock

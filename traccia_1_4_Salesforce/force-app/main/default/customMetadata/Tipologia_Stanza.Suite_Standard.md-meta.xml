@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Suite Standard</label>
+    <protected>false</protected>
+    <values>
+        <field>descrizione__c</field>
+        <value xsi:type="xsd:string">La suite è molto ampia e oltre alla zona notte è presente una zona soggiorno separata. Nella suite inoltre l’ospite ha a disposizione anche un bagno molto grande e uno spazio esterno, come un piccolo terrazzo o un balcone. Infine, gli ospiti potranno usufruire di un piccolo angolo cottura.</value>
+    </values>
+</CustomMetadata>

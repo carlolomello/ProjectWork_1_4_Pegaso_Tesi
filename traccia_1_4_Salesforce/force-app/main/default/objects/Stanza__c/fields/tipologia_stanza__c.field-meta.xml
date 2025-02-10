@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tipologia_stanza__c</fullName>
+    <label>tipologia stanza</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Camera_Standard</fullName>
+                <default>false</default>
+                <label>Camera_Standard</label>
+            </value>
+            <value>
+                <fullName>Camera_Deluxe</fullName>
+                <default>false</default>
+                <label>Camera_Deluxe</label>
+            </value>
+            <value>
+                <fullName>Suite_Standard</fullName>
+                <default>false</default>
+                <label>Suite_Standard</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
