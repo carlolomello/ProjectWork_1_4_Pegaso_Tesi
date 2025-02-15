@@ -42,7 +42,6 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<!-- da qui -->
 		<dependency>
 	        <groupId>org.springframework.boot</groupId>
 	        <artifactId>spring-boot-starter-web</artifactId>
@@ -86,12 +85,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-batch</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>com.AppListino</groupId>
-			<artifactId>AppListino</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
