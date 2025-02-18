@@ -5,4 +5,4 @@ Di seguito i manuali d'uso per gli utenti dei due applicativi:
 
 [Manuale d'uso - Utenza CLiente](https://github.com/carlolomello/ProjectWork_1_4_Pegaso_Tesi/blob/main/ManualeUtenteCliente.pdf)
 
-[Manuale d'uso - Operatore Hotel](https://github.com/carlolomello/ProjectWork_1_4_Pegaso_Tesi/blob/main/ManualeUtenteCliente.pdf)
+[Manuale d'uso - Amministrazione Hotel](https://github.com/carlolomello/ProjectWork_1_4_Pegaso_Tesi/blob/main/ManualeAmministrazioneHotel.pdf)

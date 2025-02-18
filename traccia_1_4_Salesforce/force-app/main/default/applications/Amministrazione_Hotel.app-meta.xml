@@ -16,8 +16,8 @@
     <tabs>utenza_cliente__c</tabs>
     <tabs>Stanza__c</tabs>
     <tabs>Prenotazione__c</tabs>
-    <tabs>Prenotazione_Servizio__c</tabs>
     <tabs>Servizio__c</tabs>
+    <tabs>Prenotazione_Servizio__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Amministrazione_Hotel_UtilityBar</utilityBar>
 </CustomApplication>

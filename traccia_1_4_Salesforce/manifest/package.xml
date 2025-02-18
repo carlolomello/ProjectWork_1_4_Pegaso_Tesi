@@ -100,6 +100,14 @@
 		<name>Layout</name>
 	</types>
 	<types>
+		<members>Prenotazione_Servizio__c.All</members>
+		<members>Prenotazione__c.All</members>
+		<members>Servizio__c.All</members>
+		<members>Stanza__c.All</members>
+		<members>utenza_cliente__c.All</members>
+		<name>ListView</name>
+	</types>
+	<types>
 		<members>Admin</members>
 		<members>Amministratore</members>
 		<name>Profile</name>
