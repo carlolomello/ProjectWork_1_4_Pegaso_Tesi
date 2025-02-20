@@ -27,7 +27,7 @@ Questa cartella contiene l'applicazione backend sviluppata in **Spring Boot**. P
 
 ---
 
-### 2. traccia_1_4_Salesforce (Salesforce Integration)  
+### 2. traccia_1_4_Salesforce (Salesforce Workspace)  
 Questa cartella contiene l'integrazione con **Salesforce**. Per utilizzarla è necessario:  
 - Avere installato **JDK** e **Salesforce CLI**.  
 - Accedere all'org Salesforce all'indirizzo:  
