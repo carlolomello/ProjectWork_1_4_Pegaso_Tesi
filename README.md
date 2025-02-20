@@ -33,13 +33,12 @@ Questa cartella contiene l'integrazione con **Salesforce**. Per utilizzarla è n
 - Accedere all'org Salesforce all'indirizzo:  
   [Pegaso Salesforce Org](https://pegaso-dev-ed.develop.my.salesforce.com)  
 
-(Se non si dispone delle credenziali di accesso, è possibile richiederle scrivendo a **carlo.lomello@yahoo.it**.)
+(Se non si dispone delle credenziali di accesso, è possibile richiederle scrivendomi **carlo.lomello@yahoo.it**.)
 
 - Per replicare le funzionalità sulla propria org Salesforce:  
-    1. Effettuare l'autenticazione con Salesforce CLI.  
-    2. Eseguire il deploy dei metadati utilizzando il **manifest**:  
+    - Effettuare l'autenticazione con Salesforce CLI.  
+    - Eseguire il deploy dei metadati utilizzando il **manifest**:  
         [package.xml](https://github.com/carlolomello/ProjectWork_1_4_Pegaso_Tesi/blob/main/traccia_1_4_Salesforce/manifest/package.xml)  
-
 
 ---
 
