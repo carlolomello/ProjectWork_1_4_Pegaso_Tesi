@@ -23,9 +23,7 @@ Questa cartella contiene l'applicazione backend sviluppata in **Spring Boot**. P
 - Avere installato **JDK** (Java Development Kit).  
 - Il punto di ingresso principale dell'applicazione è la classe `Traccia14ResTfulApplication`, reperibile al seguente percorso:  
     [Traccia14ResTfulApplication.java](https://github.com/carlolomello/ProjectWork_1_4_Pegaso_Tesi/blob/main/traccia_1_4_RESTful/src/main/java/com/lomello_MAT0312401017/traccia_1_4_RESTful/Traccia14ResTfulApplication.java)  
-- Prima di avviare l'applicazione, è necessario configurare il file **application.properties** con le credenziali corrette. Il file si trova qui:  
-[application.properties](https://github.com/carlolomello/ProjectWork_1_4_Pegaso_Tesi/blob/main/traccia_1_4_RESTful/src/main/resources/application.properties)  
-
+- Prima di avviare l'applicazione, è necessario configurare il file **application.properties** con le credenziali corrette [application.properties](https://github.com/carlolomello/ProjectWork_1_4_Pegaso_Tesi/blob/main/traccia_1_4_RESTful/src/main/resources/application.properties)  
 
 ---
 
@@ -33,7 +31,7 @@ Questa cartella contiene l'applicazione backend sviluppata in **Spring Boot**. P
 Questa cartella contiene l'integrazione con **Salesforce**. Per utilizzarla è necessario:  
 - Avere installato **JDK** e **Salesforce CLI**.  
 - Accedere all'org Salesforce all'indirizzo:  
-  👉 [Pegaso Salesforce Org](https://pegaso-dev-ed.develop.my.salesforce.com)  
+  [Pegaso Salesforce Org](https://pegaso-dev-ed.develop.my.salesforce.com)  
 
 (Se non si dispone delle credenziali di accesso, è possibile richiederle scrivendo a **carlo.lomello@yahoo.it**.)
 
